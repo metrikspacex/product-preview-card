@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react-refresh", "react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "always",
+        "bracketSameLine": true,
+        "bracketSpacing": true,
+        "endOfLine": "lf",
+        "htmlWhitespaceSensitivity": "strict",
+        "jsxSingleQuote": false,
+        "printWidth": 80,
+        "proseWrap": "always",
+        "quoteProps": "as-needed",
+        "semi": true,
+        "singleAttributePerLine": false,
+        "singleQuote": false,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "useTabs": false
+      }
+    ],
+    "quotes": ["error", "double"],
+    "react-refresh/only-export-components": "warn",
+    "semi": ["error", "always"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "root": true
+}
