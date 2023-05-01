@@ -111,7 +111,7 @@ main.root {
       }
     }
   }
-  @media only screen and (min-device-width: 1440px) {
+  @media (1440px >=width) {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     height: 45rem;
