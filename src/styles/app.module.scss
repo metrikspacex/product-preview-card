@@ -111,7 +111,7 @@ main.root {
       }
     }
   }
-  @media (1440px >=width) {
+  @media (min-width: 1440px) {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     height: 45rem;

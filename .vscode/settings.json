@@ -298,7 +298,7 @@
   "typescript.enablePromptUseWorkspaceTsdk": false,
 
   // Window
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 1,
 
   // Workbench
   "workbench.iconTheme": "vscode-icons"
